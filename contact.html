@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d0e8431583.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/grid.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <h1 class="hidden">Welcome to The Couples Resort Contact Page</h1>
+    <!-- Main Nav -->
+    <header class="grid-con" id="main-header">
+      <nav id="main-nav" class="col-span-full">
+        <h2 class="hidden">Main Navigation</h2>
+        <input type="checkbox" id="hamburger" />
+        <label for="hamburger">
+          <img src="images/burger.svg" alt="hamburger menu icon" />
+        </label>
+        <div id="burger-con">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Dining</a></li>
+            <li><a href="#">Spa Activites</a></li>
+            <li><a href="#">Reservations</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="logo" class="col-span-full">
+        <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo" />
+      </div>
+    </header>
+    <!-- Main Hero -->
+    <section id="hero" class="grid-con">
+      <h2 class="hidden">contact us</h2>
+      <section id="hero-heading-box" class="col-span-full">
+        <h2 class="hero-img-h2">
+          <span>Couples Resort</span><br />
+          Contact Us
+        </h2>
+      </section>
+    </section>
+
+    <div class="grid-con">
+      <section id="hero-summary" class="col-span-full line-separator">
+        <h2 class="hidden">Contact Us Text and Form</h2>
+        <img src="images/cu.png" class="cu-image" />
+      </section>
+    </div>
+
+    <section class="grid-con">
+      <h2 class="hidden">Contact Information</h2>
+      <div id="contact-hero-form" class="col-span-full">
+        <form action="#" method="post" enctype="text/plain">
+          <input
+            name="fullName"
+            type="text"
+            required
+            placeholder="First & Last Name"
+          />
+          <input
+            name="contactInfo"
+            type="text"
+            required
+            placeholder="Phone number or Email"
+          />
+          <textarea
+            name="msg"
+            placeholder="Enter your questions, comments or concerns here..."
+          >
+          </textarea>
+
+          <input name="submit" type="submit" value="Send" />
+        </form>
+      </div>
+      <div id="contact-hero-text" class="col-span-full">
+        <p>
+          Thank you for taking the time to learn more about our resort and why
+          we are Ontario's number one choice for couples looking to reconnect.
+          For reservation enquiries and further information, please complete our
+          contact form below. Or if you prefer to talked call us at our toll
+          free number listed below.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="grid-con">
+      <h2 class="hidden">Contact Us</h2>
+      <div class="col-start-2 col-span-2">
+        <i class="fas fa-mobile-alt"></i>
+        <p id="hero-numbers">
+          Toll Free:+1 866 202-1179<br />
+          Fax:+1 613 637 2615<br />
+          info[at]coupleresort.com
+          <!-- discuss email obfuscation  -->
+        </p>
+      </div>
+      <div class="col-start-2 col-span-2">
+        <i class="fas fa-map-marker-alt"></i>
+        <p id="hero-address">
+          <a
+            href="https://www.google.com/maps/place/Couples+Resort/@45.487948,-78.246239,15z/data=!4m9!3m8!1s0x4cd5d3215afb8d49:0xe6948b1dbc3fe023!5m2!4m1!1i2!8m2!3d45.487948!4d-78.246239!16s%2Fg%2F1hm1zf4br?entry=ttu"
+          >
+            1198 Osprey Rd, (End of)<br />
+            Minden, Soyers Lake, ON<br />
+            K0M 2K0
+          </a>
+        </p>
+      </div>
+    </section>
+    <br />
+
+    <!-- google maps -->
+    <h2 class="hidden">Google Maps Section</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11188.39661909158!2d-78.246239!3d45.487948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd5d3215afb8d49%3A0xe6948b1dbc3fe023!2sCouples%20Resort!5e0!3m2!1sen!2sca!4v1711977462137!5m2!1sen!2sca"
+      width="412px"
+      height="250px"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      class="googlemap grid-con"
+    ></iframe>
+
+    <!-- weather area here -->
+    <div class="widget">
+      <h2 class="hidden">Weather Area</h2>
+      <div class="left-panel panel">
+        <div class="date">Monday, 20 Aug 2024</div>
+        <div class="city">
+          <a href="https://www.theweathernetwork.com/ca/weather/ontario/whitney"
+            >Whitney | ON</a
+          >
+        </div>
+        <div class="temp">3&deg;</div>
+      </div>
+      <div class="right-panel panel">
+        <img src="images/cr-logo.PNG" alt="" class="cr-logo-anim" />
+      </div>
+    </div>
+
+    <!-- limo service area -->
+    <section id="hero2" class="grid-con">
+      <h2 class="hidden">Limo Service</h2>
+      <section id="limo-heading-box" class="col-span-full">
+        <h2 class="hero-img-h2">
+          <span>Couples Resort</span><br />
+          <a
+            href="https://www.citystarslimo.com/gta-limo-service/?gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppOVRnyXC5zyXY9WZIfbD7IcvFV9GztoGmLchDFmyGbb2ahkZeL8SPhoCb1sQAvD_BwE"
+          >
+            Limo Service</a
+          >
+        </h2>
+      </section>
+    </section>
+
+    <div class="grid-con">
+      <section class="col-span-full line-separator">
+        <h2 class="hidden">Limo Service</h2>
+      </section>
+    </div>
+
+    <section class="contact grid-con">
+      <h2 class="hidden">Contact Us</h2>
+      <div class="col-start-2 col-span-3">
+        <i class="fas fa-mobile-alt"></i>
+        <p class="hero-numbers">
+          <span>
+            Atrium Executive limousine <br />
+            www.atriumlimo.com<br />
+            1-888-280-LIMO (5466)
+          </span>
+        </p>
+      </div>
+
+      <div class="col-start-2 col-span-2">
+        <i class="fas fa-mobile-alt"></i>
+        <p class="hero-address">
+          Luxury Coach<br />
+          Minden, Soyers Lake, ON<br />
+          1-888-589-8795
+        </p>
+      </div>
+    </section>
+
+    <!-- Back To Top -->
+    <div class="grid-con">
+      <h3 class="hidden">Back To Top</h3>
+      <a href="#main-header">
+        <button class="btt-button">
+          <span>Back To Top</span>
+        </button>
+      </a>
+    </div>
+
+    <footer id="footer-hero" class="grid-con">
+      <section id="footer-contact-info" class="col-span-full">
+        <h3>Couples Resort</h3>
+        <p>
+          1198 Osprey Rd, (End of)<br />
+          Minden, Soyers Lake, ON, <br />
+          K0M 2K0
+        </p>
+        <p>
+          Toll Free:+1 877 201-1156<br />
+          FAX:+1 613 638 2217<br />
+          E-mail: info@coupleresort.com
+        </p>
+      </section>
+      <div id="footer-privacy" class="col-span-full line-separator">
+        <p id="price-policy">
+          All prices and services on this website and in our reservation system
+          are based on conditions at the time of publishing and are subject to
+          change. Please call to confirm services, availability and pricing.
+          ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      function myMap() {
+        var mapProp = {
+          center: new google.maps.LatLng(51.508742, -0.12085),
+          zoom: 5,
+        };
+        var map = new google.maps.Map(
+          document.getElementById("googleMap"),
+          mapProp
+        );
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+  </body>
+</html>
